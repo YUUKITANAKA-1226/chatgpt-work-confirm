@@ -1,0 +1,11 @@
+{
+  "manifest_version": 3,
+  "name": "ChatGPT Work 送信確認",
+  "version": "0.1.0",
+  "description": "Workモードの送信前に確認します。",
+  "content_scripts": [{
+    "matches": ["https://chatgpt.com/*"],
+    "js": ["content.js"],
+    "run_at": "document_start"
+  }]
+}

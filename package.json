@@ -1,0 +1,17 @@
+{
+  "name": "chatgpt",
+  "version": "1.0.0",
+  "description": "ChatGPT Work送信確認拡張機能と検証ツール",
+  "private": true,
+  "scripts": {
+    "test": "node --test --test-isolation=none tests/unit.test.cjs",
+    "test:browser": "playwright test",
+    "browser:login": "node scripts/login.cjs"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "engines": { "node": ">=22" },
+  "devDependencies": { "@playwright/test": "^1.56.0" }
+}
